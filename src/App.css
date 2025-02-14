@@ -56,6 +56,10 @@ button {
   font-family: "Karla", sans-serif;
   cursor: pointer;
 }
+button:focus {
+  outline: 3px solid #ffcc00; /* Yellow focus ring */
+  outline-offset: 2px;
+}
 
 .dice-container button {
   height: 50px;
